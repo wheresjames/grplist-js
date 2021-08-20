@@ -139,6 +139,8 @@ function main()
 {
     Log("--- START TESTS ---\n");
 
+    Log(gl.__info__);
+
     test_1();
     test_2();
     test_3();
